@@ -7,7 +7,7 @@ Mile Tracker is a lightweight Node.js application that allows users to:
 - Register an account  
 - Log in  
 - Record miles  
-- View all entries in a dashboard  
+ 
 
 The app uses **in‑memory storage** (no database) and includes a **multistage Dockerfile** for efficient containerized deployment.
 
@@ -17,7 +17,6 @@ The app uses **in‑memory storage** (no database) and includes a **multistage D
 - User registration  
 - User login  
 - Record miles  
-- Dashboard to view all entries  
 - Clean Bootstrap UI  
 - Lightweight Node.js backend  
 - Optimized multistage Docker build  
