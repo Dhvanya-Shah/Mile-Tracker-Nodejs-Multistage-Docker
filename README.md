@@ -60,12 +60,12 @@ http://localhost:3000
 
 ### **Build the Docker image**
 ```
-docker build -t mile-tracker .
+docker build -t mile-tracker-multistage-docker .
 ```
 
 ### **Run the container**
 ```
-docker run -d --name mile-tracker-multistage -p 3000:3000 mile-tracker
+docker run -d --name mile-tracker-multistage-docker -p 3000:3000 mile-tracker-multistage-docker
 ```
 
 ### **Access the app**
